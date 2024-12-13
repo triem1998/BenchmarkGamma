@@ -10,7 +10,7 @@ The codes are organized as follows:
       - Additional files: [IAE code](codes/IAE_CNN_TORCH_Oct2023.py), [Generate and load data for ML](codes/data_ML.py), [REad data](codes/read_data.py)
 -  The Data folder contains the dataset of 96 spectral signatures of 9 radionuclides as a function of steel thickness and shift spectral singatures
       - [Spectral signatures with deformation](data/Simulation_steel_sphere), [Spectral signatures with spectral shift](data/drift_data)
-      - [Dataset for ML models with known spectral signatures](data/Data_spectra_gamma_200000_wo_variability), [Dataset for ML models with spectral deformations](data/Data_spectra_gamma_200000_variability_wo_I131), [Dataset for ML models with spectral shift]](data/Data_spectra_gamma_200000_wo_variability_drift)
+      - [Dataset for ML models with known spectral signatures](data/Data_spectra_gamma_200000_wo_variability), [Dataset for ML models with spectral deformations](data/Data_spectra_gamma_200000_variability_wo_I131), [Dataset for ML models with spectral shift](data/Data_spectra_gamma_200000_wo_variability_drift)
       - [Natural background](data/SPS_NaITl_3pouces_Exp_1keVCanal_Max2200keV_#20012023A.txt)
       - Results of spectral unmixing for test dataset: [POMP](data/resultat_pomp), [MoSeVa](data/resultat_moseva_wo_I131), [P-OMP for spectral shift](data/data/result_pomp_drift_all)
        
